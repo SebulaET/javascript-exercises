@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Favorite Animal function
+        function favoriteAnimal(animal) {
+            return animal + " is my favorite animal!"
+        }
+
+        console.log(favoriteAnimal("Frog"))
+// Add 7 function
+        function add7(number) {
+            return number + 7
+        }
+
+        console.log(add7(3));
+// Multiply function
+        function multiply(num1, num2) {
+            return num1 * num2
+        }
+
+        console.log(multiply(9, 2));
+// Capitalize function
+        let stringTest = "gOoD DAy, fInE FrIEnD!";
+
+            function capitalize(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
+        }
+
+        console.log(capitalize(stringTest));
+// Last Letter function
+        const lastLetterString = "The last letter only";
+
+            function lastLetter(string) {
+            return string.slice(-1)
+        }
+
+        console.log(lastLetter(lastLetterString));
+
+// FizzBuzz
+        let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "))
+            // I think ParseInt is like saying parse out a number(integer) from the user input in this prompt if I understand correctly
+        for (let i = 1; i <= answer; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log("FizzBuzz");
+            } else if (i % 3 === 0) {
+                console.log("Fizz");
+            } else if (i % 5 === 0) {
+                console.log("Buzz");
+            } else {
+                console.log(i);
+            }
+        }
+            // "for"= for (expression1; expression2; expression3) {
+            // }
+            // declare "i", give i the condition of less than or equal to answer, i++ to increment by 1.
+
+    </script>
+</body>
+</html>
