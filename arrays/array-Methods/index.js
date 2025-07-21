@@ -1,3 +1,5 @@
+// Lesson 1:
+
 // Create a function that translates dash separated words into camel case.
     // 1 Take strings and separate into words in an array
         // Check for things that need to be modified
@@ -35,3 +37,9 @@ const addArrow = (a, b) => a + b;
 
 // console.log(add(2, 3)); // Output: 5
 // console.log(addArrow(2, 3)); // Output: 5
+
+// Lesson 2:
+
+function filterRange (arr, a, b){
+
+}
