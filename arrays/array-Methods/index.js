@@ -9,6 +9,16 @@
 
 function camelize(string){
     return string
-    .split("-");
-    
+    .split("-")
+    .map((word, index) => {
+        if (index === 0) {
+            return word
+        }
+        else {
+            return (word.charAt(0).toUpperCase() + word.slice(1));
+        }
+    })
+    .join("");
 }
+// const tbd = "to-be-determined"
+//  console.log(camelize(tbd));
