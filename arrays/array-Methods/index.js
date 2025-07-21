@@ -8,6 +8,7 @@
 // (Use 'Split' and 'join')
 
 function camelize(string){
-    string = string.split("-");
-    console.log(string);
+    return string
+    .split("-");
+    
 }
