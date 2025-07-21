@@ -11,7 +11,3 @@ function camelize(string){
     string = string.split("-");
     console.log(string);
 }
-
-const tbd= "to-be-determined";
-
-camelize(tbd);
